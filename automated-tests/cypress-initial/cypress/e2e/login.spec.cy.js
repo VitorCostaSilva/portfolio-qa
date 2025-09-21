@@ -26,4 +26,5 @@ describe('Orange HRM Tests', () => {
     cy.get(selectorsList.loginButton).click()
     cy.get(selectorsList.wrongCredentialAlert)
   })
+
 })
