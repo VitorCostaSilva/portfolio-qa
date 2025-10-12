@@ -5,6 +5,9 @@ import DashboardPage from '../pages/dashboardPage.js'
 const loginPage = new LoginPage()
 const dashboardPage = new DashboardPage()
 
+const Chance = require('chance')
+const chance = new Chance()
+
 describe('Orange HRM Tests', () => {
 
   it('Login Success', () => {
@@ -15,7 +18,7 @@ describe('Orange HRM Tests', () => {
 
   it('Login Fail', () => {
     loginPage.acessLoginPage()
-    loginPage.loginWithUser('Fail', 'Fail')
+    loginPage.loginWithUser(chance.string(), chance.string())
     loginPage.checkInvalid()
   })
 

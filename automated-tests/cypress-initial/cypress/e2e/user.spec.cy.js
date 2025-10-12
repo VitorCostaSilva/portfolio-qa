@@ -9,6 +9,9 @@ const dashboardPage = new DashboardPage()
 const menuPage =new MenuPage()
 const myinfoPage = new MyInfoPage()
 
+const Chance = require('chance')
+const chance = new Chance()
+
 describe('Orange HRM Tests', () => {
 
     it('User Info Update - Sucess', () => {
@@ -23,9 +26,9 @@ describe('Orange HRM Tests', () => {
     menuPage.clickMyInfoPage()
 
     //Fill MyInfo menu with informations then save it
-    myinfoPage.employeeFullName('João', 'Apolinário', 'Silva')
-    myinfoPage.employeeID('RG96845','AEE3453','DL094724','2030-07-08')
-    myinfoPage.employeeStatus('1988-05-30')
+    myinfoPage.employeeFullName(chance.first(), chance.last(), chance.last())
+    myinfoPage.employeeID(chance.cf(),chance.cf(),chance.cf(), chance.date({string: true, american: true}))
+    myinfoPage.employeeStatus(chance.date({string: true, american: true}))
     myinfoPage.savePersonalDetails()
   })
 
