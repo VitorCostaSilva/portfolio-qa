@@ -16,25 +16,34 @@ class MyInfoPage{
         return selectors
     }
     
-    filIinfoPage() {
-        cy.get(this.selectorsList().firstnameField).clear().type("FirstnameTest")
-        cy.get(this.selectorsList().middlenameField).clear().type("MiddlenameTest")
-        cy.get(this.selectorsList().lastnameField).clear().type("LastnameTest")
-        cy.get(this.selectorsList().genericField).eq(4).clear().type("5566")
-        cy.get(this.selectorsList().genericField).eq(5).clear().type("0023")
-        cy.get(this.selectorsList().genericField).eq(6).clear().type("ABCH47987")
-        cy.get(this.selectorsList().genericField).eq(7).clear().type("2025-07-01")
+    employeeFullName(firstName, middleName, lastName) {
+        cy.get(this.selectorsList().firstnameField).clear().type(firstName)
+        cy.get(this.selectorsList().middlenameField).clear().type(middleName)
+        cy.get(this.selectorsList().lastnameField).clear().type(lastName)
+    }
+
+    employeeID(employeeID, otherID, driverLicense, licenseExpiry) {
+        cy.get(this.selectorsList().genericField).eq(3).clear().type(employeeID)
+        cy.get(this.selectorsList().genericField).eq(4).clear().type(otherID)
+        cy.get(this.selectorsList().genericField).eq(5).clear().type(driverLicense)
+        cy.get(this.selectorsList().genericField).eq(6).clear().type(licenseExpiry)
         cy.get(this.selectorsList().dataCloseButton).click()
+    }
+
+    employeeStatus(birthDate) {
         cy.get(this.selectorsList().nationalityList).eq(0).click() 
         cy.contains("Bangladeshi").scrollIntoView().click()
         cy.get(this.selectorsList().relationList).eq(1).click()
         cy.contains("Married").scrollIntoView().click()
-        cy.get(this.selectorsList().genericField).eq(8).clear().type("1998-06-10")
+        cy.get(this.selectorsList().genericField).eq(8).clear().type(birthDate)
         cy.get(this.selectorsList().dataCloseButton).click()
+    }
+
+    savePersonalDetails() {
         cy.get(this.selectorsList().submmitButton).eq(1).click()
         cy.get('body').should('contain','Successfully Saved')
     }
-    
+
 
 }
 

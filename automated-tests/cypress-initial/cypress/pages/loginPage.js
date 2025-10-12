@@ -19,6 +19,10 @@ class LoginPage{
         cy.get(this.selectorsList().passwordField).type(password)
         cy.get(this.selectorsList().loginButton).click()
     }
+
+    checkInvalid() {
+        wrongCredentialAlert: '.oxd-alert'
+    }
 }
 
 export default LoginPage

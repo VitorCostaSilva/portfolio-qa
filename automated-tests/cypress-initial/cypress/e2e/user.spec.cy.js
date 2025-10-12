@@ -11,24 +11,22 @@ const myinfoPage = new MyInfoPage()
 
 describe('Orange HRM Tests', () => {
 
-    it.only('Login Success', () => {
+    it('User Info Update - Sucess', () => {
+    //Fill login & password boxes  
     loginPage.acessLoginPage()
-    loginPage.loginWithUser(userData.userSucess.username, userData.userSucess.password)
+    loginPage.loginWithUser('Admin', 'admin123')
     
+    //acess dashboard page and verify it
     dashboardPage.checkDashboardPage()
 
+    //click on MyInfo menu
     menuPage.clickMyInfoPage()
 
-    myinfoPage.filIinfoPage()
-  
-  })
-
-    it('Login Fail', () => {
-    cy.visit('auth/login')
-    cy.get(selectorsList.usernameField).type(userData.userFail.username)
-    cy.get(selectorsList.passwordField).type(userData.userFail.password)
-    cy.get(selectorsList.loginButton).click()
-    cy.get(selectorsList.wrongCredentialAlert)
+    //Fill MyInfo menu with informations then save it
+    myinfoPage.employeeFullName('João', 'Apolinário', 'Silva')
+    myinfoPage.employeeID('RG96845','AEE3453','DL094724','2030-07-08')
+    myinfoPage.employeeStatus('1988-05-30')
+    myinfoPage.savePersonalDetails()
   })
 
 })
