@@ -44,7 +44,7 @@ Antes de rodar os testes, você precisa ter instalado em sua máquina:
    ````
 5. **Abrir Cypress (modo interativo)**
    ```bash
-   npx cypress verify
+   npx cypress open
    ````
 
    
