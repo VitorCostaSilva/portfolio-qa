@@ -1,4 +1,4 @@
-# ⚙️ Automated Tests — OrangeHRM
+# Automated Tests — OrangeHRM
 
 Esta pasta contém os **testes automatizados end-to-end** desenvolvidos para a aplicação [OrangeHRM Demo](https://opensource-demo.orangehrmlive.com/), cobrindo fluxos críticos de autenticação e gerenciamento de usuários.
 
@@ -22,7 +22,7 @@ OrangeHRM/
 
 ---
 
-## 🔐 Login — `login.spec.cy.js`
+## Login — `login.spec.cy.js`
 
 Valida o fluxo de autenticação da aplicação com cenários positivos e negativos.
 
@@ -47,7 +47,7 @@ Valida o fluxo de autenticação da aplicação com cenários positivos e negati
 
 ---
 
-## 👤 Atualização de Usuário — `userInfo.spec.cy.js`
+## Atualização de Usuário — `userInfo.spec.cy.js`
 
 Valida o fluxo de atualização de informações pessoais de um funcionário via menu **My Info**.
 
@@ -79,4 +79,4 @@ Valida o fluxo de atualização de informações pessoais de um funcionário via
 
 ---
 
-> 💡 O padrão Page Object Model foi adotado para garantir reusabilidade e facilitar a manutenção dos testes à medida que a suíte cresce.
+>  O padrão Page Object Model foi adotado para garantir reusabilidade e facilitar a manutenção dos testes à medida que a suíte cresce.
