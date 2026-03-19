@@ -19,7 +19,7 @@ Este repositório tem como propósito **demonstrar minhas habilidades em Garanti
 
 | Tipo                 | Ferramentas / Tecnologias                                    |
 | -------------------- | ------------------------------------------------------------ |
-| Testes automatizados | **Cypress**, **Playwright**, **Selenium**, **Postman (API)** |
+| Testes automatizados | **Cypress**, **Postman (API)** |
 | Linguagens           | **JavaScript**, **Python**                                   |
 | Testes manuais       | **Excel / TestRail / Jira**, **Notion**                      |
 | Controle de versão   | **Git / GitHub**                                             |
