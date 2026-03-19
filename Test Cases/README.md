@@ -2,7 +2,7 @@
 
 Esta pasta contém meus **testes manuais**, documentados em formato **Markdown**, simulando o formato profissional usado em ferramentas como **TestRail** ou **Jira**.
 
-Cada arquivo representa um **plano de teste** ou **caso de teste** com as seguintes seções:
+Cada arquivo representa um **caso de teste** com as seguintes seções:
 
 - **Cenário de teste**
 - **Pré-condições**
@@ -14,7 +14,7 @@ Cada arquivo representa um **plano de teste** ou **caso de teste** com as seguin
 
 ## 📍 Exemplo principal
 
-- [**Teste de Carrinho**](https://github.com/VitorCostaSilva/portfolio-qa/tree/main/TestPlans/carrinho)  
+- [**Teste de Carrinho**] 
   Descreve o fluxo completo de **adicionar e remover produtos do carrinho de compras**, validando:
   - Mensagens de erro e sucesso
   - Atualização dos valores
@@ -35,6 +35,5 @@ Demonstrar minha capacidade de:
 ## 🧩 Ferramentas utilizadas
 
 - **Excel / Planilhas** (para organização e controle)
-- **Notion / Jira (conceito)** para simular gestão de testes em ambiente profissional
 
 ---
