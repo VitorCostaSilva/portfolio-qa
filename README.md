@@ -34,23 +34,17 @@ Suíte E2E desenvolvida com **Cypress + JavaScript**, cobrindo fluxos de autenti
 
 Cenários cobertos: login válido, login inválido, atualização de dados pessoais via menu My Info.
 
-→ [Ver projeto](./automated-tests/OrangeHRM)
-
 ---
 
 ### 🐛 Bug Reports
 
 Registros estruturados de defeitos identificados durante ciclos de teste manual e exploratório. Cada relatório documenta passos para reprodução, evidências, severidade e resultado esperado vs. obtido.
 
-→ [Ver pasta](./Bug%20Report)
-
 ---
 
 ### 🧪 Test Cases
 
 Casos de teste manuais organizados por aplicação e módulo, seguindo o padrão profissional de ferramentas como TestRail e Jira — com pré-condições, passos, resultado esperado e status de execução.
-
-→ [Ver pasta](./Test%20Cases)
 
 ---
 
