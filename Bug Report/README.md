@@ -12,14 +12,6 @@ Um bom bug report é uma das habilidades mais valorizadas em QA: ele precisa ser
 
 ---
 
-## 📂 O que você vai encontrar aqui
-
-| Arquivo | Descrição |
-|---|---|
-| `Bug Report - Swag Labs.xlsx` | Relatório de defeitos encontrados na aplicação Swag Labs (SauceDemo), contendo ID, título, severidade, prioridade, passos para reprodução, resultado esperado vs. obtido e evidências |
-
----
-
 ## 🧾 Estrutura de um Bug Report
 
 Cada bug report registrado neste portfólio segue os campos abaixo:
