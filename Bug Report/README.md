@@ -1,10 +1,10 @@
-# 🐛 Bug Report
+# Bug Report
 
 Esta pasta reúne todos os **relatórios de defeitos (bug reports)** identificados durante as atividades de teste deste portfólio.
 
 ---
 
-## 📌 Propósito
+## Propósito
 
 Documentar defeitos encontrados em aplicações testadas de forma estruturada, clara e rastreável — seguindo as boas práticas do mercado de QA.
 
@@ -12,7 +12,7 @@ Um bom bug report é uma das habilidades mais valorizadas em QA: ele precisa ser
 
 ---
 
-## 🧾 Estrutura de um Bug Report
+## Estrutura de um Bug Report
 
 Cada bug report registrado neste portfólio segue os campos abaixo:
 
@@ -26,13 +26,6 @@ Cada bug report registrado neste portfólio segue os campos abaixo:
 - **Resultado obtido** — O que aconteceu de fato
 - **Resultado esperado** — O que deveria acontecer
 - **Evidências** — Prints, vídeos ou logs comprobatórios
-
----
-
-## 🛠️ Ferramentas utilizadas
-
-- Microsoft Excel / Google Sheets (registro manual)
-- Futuras integrações: Jira, Azure DevOps
 
 ---
 

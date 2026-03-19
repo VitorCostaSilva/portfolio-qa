@@ -1,4 +1,4 @@
-# 🧪 Test Cases
+# Test Cases
 
 Esta pasta centraliza os **casos de teste** elaborados para validar os requisitos e comportamentos esperados das aplicações testadas.
 
@@ -38,6 +38,7 @@ Descreve o fluxo completo de adicionar e remover produtos do carrinho de compras
 - Quantidade de itens
 - Estado final do carrinho
 
+---
 
 > 💡 Casos de teste bem escritos são a base de qualquer estratégia de qualidade.
 > Eles demonstram capacidade analítica, domínio dos requisitos e visão sistêmica do produto.

@@ -1,11 +1,11 @@
-# 🤖 Testes Automatizados – automated-tests
+# Testes Automatizados – automated-tests
 
 Esta pasta contém meus **testes automatizados desenvolvidos com Cypress**, escritos em **JavaScript (Node.js)**.  
 Os testes simulam ações reais do usuário e validam o funcionamento das principais funcionalidades da aplicação, garantindo qualidade e estabilidade.
 
 ---
 
-## 🧰 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tipo | Ferramenta / Tecnologia |
 |------|--------------------------|
@@ -14,7 +14,7 @@ Os testes simulam ações reais do usuário e validam o funcionamento das princi
 | Versionamento | **Git / GitHub** |
 ---
 
-## ⚙️ Pré-requisitos
+## Pré-requisitos
 
 Antes de rodar os testes, você precisa ter instalado em sua máquina:
 
@@ -24,7 +24,7 @@ Antes de rodar os testes, você precisa ter instalado em sua máquina:
 
 ---
 
-## 📦 Instalação
+## Instalação
 
 1. **Clone o repositório principal:**
    ```bash
