@@ -20,15 +20,16 @@ Sou **Vitor Costa**, estudante de **Sistemas de Informação (UDESC)** com foco 
 portfolio-qa/
 ├── automated-tests/        → Testes E2E automatizados com Cypress
 │   └── OrangeHRM/          → Suíte de testes para o OrangeHRM Demo
-├── Bug Report/             → Relatórios de defeitos encontrados durante testes
-└── Test Cases/             → Casos de teste manuais por módulo e aplicação
+├── bug-reports/            → Relatórios de defeitos encontrados durante testes
+├── test-cases/             → Casos de teste manuais por módulo e aplicação
+└── test-plans/             → Planos de teste completos
 ```
 
 ---
 
 ## Projetos
 
-### ⚙️ Testes Automatizados — OrangeHRM
+### ⚙️ Testes Automatizados
 
 Suíte E2E desenvolvida com **Cypress + JavaScript**, cobrindo fluxos de autenticação e gerenciamento de usuários. Organizada com o padrão **Page Object Model** para reusabilidade e manutenibilidade.
 
@@ -52,10 +53,10 @@ Casos de teste manuais organizados por aplicação e módulo, seguindo o padrão
 
 | Categoria | Ferramentas |
 |---|---|
-| Automação E2E | Cypress |
-| Linguagens | JavaScript, Python |
+| Automação E2E | Cypress, Playwright |
+| Linguagens | JavaScript, Python, Typescript |
 | API Testing | Postman |
-| Testes manuais | Excel, Jira, TestRail |
+| Testes manuais | Excel, Jira |
 | Controle de versão | Git / GitHub |
 
 ---
